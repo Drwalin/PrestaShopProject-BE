@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-11-08 15:31:01
+/* Smarty version 3.1.39, created on 2021-11-13 18:43:38
   from 'module:psimagesliderviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_618934a5ef4f70_04590286',
+  'unifunc' => 'content_618ff94a744952_15032471',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,47 +18,21 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_618934a5ef4f70_04590286 (Smarty_Internal_Template $_smarty_tpl) {
+function content_618ff94a744952_15032471 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
   <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="5000" data-wrap="true" data-pause="hover" data-touch="true">
     <ol class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
           </ol>
     <ul class="carousel-inner" role="listbox" aria-label="Carousel container">
               <li class="carousel-item active" role="option" aria-hidden="false">
-          <a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-EN&amp;utm_content=download">
+          <a href="http://127.0.0.1/prestashop/ks">
             <figure>
-              <img src="http://127.0.0.1/prestashop/modules/ps_imageslider/images/sample-1.jpg" alt="sample-1" loading="lazy" width="1110" height="340">
+              <img src="http://127.0.0.1/prestashop/modules/ps_imageslider/images/de01e0fc32ea530de09e8ce53fdcd61b9384e8ed_slide1.png" alt="studenci" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
-                  <h2 class="display-1 text-uppercase">Sample 1</h2>
-                  <div class="caption-description"><h3>EXCEPTEUR OCCAECAT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p></div>
-                </figcaption>
-                          </figure>
-          </a>
-        </li>
-              <li class="carousel-item " role="option" aria-hidden="true">
-          <a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-EN&amp;utm_content=download">
-            <figure>
-              <img src="http://127.0.0.1/prestashop/modules/ps_imageslider/images/sample-2.jpg" alt="sample-2" loading="lazy" width="1110" height="340">
-                              <figcaption class="caption">
-                  <h2 class="display-1 text-uppercase">Sample 2</h2>
-                  <div class="caption-description"><h3>EXCEPTEUR OCCAECAT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p></div>
-                </figcaption>
-                          </figure>
-          </a>
-        </li>
-              <li class="carousel-item " role="option" aria-hidden="true">
-          <a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-EN&amp;utm_content=download">
-            <figure>
-              <img src="http://127.0.0.1/prestashop/modules/ps_imageslider/images/sample-3.jpg" alt="sample-3" loading="lazy" width="1110" height="340">
-                              <figcaption class="caption">
-                  <h2 class="display-1 text-uppercase">Sample 3</h2>
-                  <div class="caption-description"><h3>EXCEPTEUR OCCAECAT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p></div>
+                  <h2 class="display-1 text-uppercase">Kursy dla Studentów</h2>
+                  <div class="caption-description"><p><strong>Jesteś studentem?</strong></p>
+<p>Te kursy przygotowaliśmy właśnie dla ciebie!</p></div>
                 </figcaption>
                           </figure>
           </a>
