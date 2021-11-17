@@ -1,4 +1,3 @@
-<?php return array (
-  0 => 9223372036854775807,
-  1 => 'a:1:{i:0;O:30:"Doctrine\\ORM\\Mapping\\OneToMany":6:{s:8:"mappedBy";s:4:"shop";s:12:"targetEntity";s:31:"PrestaShopBundle\\Entity\\ShopUrl";s:7:"cascade";N;s:5:"fetch";s:4:"LAZY";s:13:"orphanRemoval";b:0;s:7:"indexBy";N;}}',
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:50fad0814f476819e7f41da1d76f9f9a2f526d0a764520d97828b2ba4ec5fa5f
+size 284
