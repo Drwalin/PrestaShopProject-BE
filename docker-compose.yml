@@ -1,0 +1,21 @@
+version: '0.1'
+
+services:
+  db:
+    build:
+      context: context-db
+    restart: always
+    volumes:
+      - ./vol-db:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: changethisyoumoron
+
+  presta:
+    depends_on:
+      - "db"
+    build:
+      context: context-presta
+    ports:
+      - "80:80"
+    volumes:
+      - ./vol-presta:/var/www/html
