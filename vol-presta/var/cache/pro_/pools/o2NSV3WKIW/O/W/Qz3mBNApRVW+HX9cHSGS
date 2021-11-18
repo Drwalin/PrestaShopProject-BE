@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a88ea492f1a171843b9c4d9a90ae32dfefa1d2950a2996fdcde65ffbf780dc3d
-size 500
+<?php return array (
+  0 => 9223372036854775807,
+  1 => 'a:3:{i:0;O:23:"Doctrine\\ORM\\Mapping\\Id":0:{}i:1;O:30:"Doctrine\\ORM\\Mapping\\ManyToOne":4:{s:12:"targetEntity";s:27:"PrestaShopBundle\\Entity\\Tab";s:7:"cascade";N;s:5:"fetch";s:4:"LAZY";s:10:"inversedBy";s:8:"tabLangs";}i:2;O:31:"Doctrine\\ORM\\Mapping\\JoinColumn":7:{s:4:"name";s:6:"id_tab";s:20:"referencedColumnName";s:6:"id_tab";s:6:"unique";b:0;s:8:"nullable";b:0;s:8:"onDelete";N;s:16:"columnDefinition";N;s:9:"fieldName";N;}}',
+);

@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d07b747cc3f39a75affb959fa5a915d0de88ca9d56ca7479561d2ee52b2b4b20
-size 123
+a:1:{i:0;C:46:"Symfony\Component\Config\Resource\FileResource":54:{s:46:"/var/www/html/app/config/addons/categories.yml";}}

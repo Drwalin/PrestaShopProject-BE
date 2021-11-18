@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e00acbbe4dd6dde55ec9e7b3603ed6fae4cb25e99aa7487876d3f57ae1ae66eb
-size 297
+<?php return array (
+  0 => 9223372036854775807,
+  1 => 'a:1:{i:0;O:30:"Doctrine\\ORM\\Mapping\\OneToMany":6:{s:8:"mappedBy";s:14:"attributeGroup";s:12:"targetEntity";s:33:"PrestaShopBundle\\Entity\\Attribute";s:7:"cascade";N;s:5:"fetch";s:4:"LAZY";s:13:"orphanRemoval";b:1;s:7:"indexBy";N;}}',
+);

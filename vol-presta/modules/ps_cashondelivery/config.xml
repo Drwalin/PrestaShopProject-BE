@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0b347f10cee4420484c22ed39c4c0b365b57f01875659caf7d51ec481e772879
-size 439
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+<name>ps_cashondelivery</name>
+    <displayName><![CDATA[Cash on delivery (COD)]]></displayName>
+    <version><![CDATA[1.0.6]]></version>
+    <description><![CDATA[Accept cash on delivery payments]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+    <limited_countries></limited_countries>
+</module>

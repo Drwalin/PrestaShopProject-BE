@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c251a750fb7be85a996c27f5483de2fa7d22d7231c7269fd19588da4f18fcb51
-size 1365
+<?php
+/* Smarty version 3.1.39, created on 2021-11-17 23:02:29
+  from '/var/www/html/modules/welcome/views/templates/tooltip.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.39',
+  'unifunc' => 'content_61957bf5801418_72191289',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '2927b3a353f75e00379fb254cc976500c85d54bd' => 
+    array (
+      0 => '/var/www/html/modules/welcome/views/templates/tooltip.tpl',
+      1 => 1637177896,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_61957bf5801418_72191289 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<div class="onboarding-tooltip">
+  <div class="content"></div>
+  <div class="onboarding-tooltipsteps">
+    <div class="total"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Step','d'=>'Modules.Welcome.Admin'),$_smarty_tpl ) );?>
+ <span class="count">1/5</span></div>
+    <div class="bulls">
+    </div>
+  </div>
+  <button class="btn btn-primary btn-xs onboarding-button-next"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Next','d'=>'Modules.Welcome.Admin'),$_smarty_tpl ) );?>
+</button>
+</div>
+<?php }
+}

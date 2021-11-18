@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4412b561b658ac0612cc9d4bfe7fa0b0a264e5f8106dea99c22e612b21d5dfee
-size 302
+<?php return array (
+  0 => 9223372036854775807,
+  1 => 'a:1:{i:0;O:27:"Doctrine\\ORM\\Mapping\\Column":9:{s:4:"name";s:11:"id_category";s:4:"type";s:7:"integer";s:6:"length";N;s:9:"precision";i:0;s:5:"scale";i:0;s:6:"unique";b:0;s:8:"nullable";b:0;s:7:"options";a:0:{}s:16:"columnDefinition";N;}}',
+);

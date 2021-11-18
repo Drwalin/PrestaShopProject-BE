@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:584549a3e72385b636e7c048d60eb357a1c198fa0aa1b265d811a001dfd4a235
-size 414
+{
+  "name": "prestashop/ps_cashondelivery",
+  "description": "PrestaShop module ps_cashondelivery",
+  "homepage": "https://github.com/PrestaShop/ps_cashondelivery",
+  "license": "AFL-3.0",
+  "authors": [
+    {
+      "name": "PrestaShop SA",
+      "email": "contact@prestashop.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "type": "prestashop-module"
+}

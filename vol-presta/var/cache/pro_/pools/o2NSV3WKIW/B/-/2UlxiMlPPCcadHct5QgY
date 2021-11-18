@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:19e4bebc86edc9649f9317da1ae2fdb2b24d3c7931570cada3e7199dc1644a87
-size 262
+<?php return array (
+  0 => 9223372036854775807,
+  1 => 'a:1:{i:0;O:30:"Doctrine\\ORM\\Mapping\\OneToMany":6:{s:8:"mappedBy";s:4:"lang";s:12:"targetEntity";s:11:"Translation";s:7:"cascade";N;s:5:"fetch";s:4:"LAZY";s:13:"orphanRemoval";b:0;s:7:"indexBy";N;}}',
+);

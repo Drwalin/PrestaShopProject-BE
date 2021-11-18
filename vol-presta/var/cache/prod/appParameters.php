@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7d28a00fbea6b9382836105ebf6a222affbddc908daa6bb77174476842dbc067
-size 978
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => 'db',
+    'database_port' => '',
+    'database_name' => 'prestadb',
+    'database_user' => 'prestashop',
+    'database_password' => 'prestashit',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'WqSXp4MYXkRzADVqfvHmb50Di33OpQOoI0cOmCyTLX12y6rVXtpu7Y2SYvhjyfuC',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2021-11-17',
+    'locale' => 'en-US',
+    'use_debug_toolbar' => true,
+    'cookie_key' => '4kkRJLUjIweGNbmIsRQMtowPbFh2ufmX4Zgw5npGahHSx14AZhYp1UGIkHDMxfDj',
+    'cookie_iv' => 'McScFNDkJzTsLO5Ltpz3VsdCSc66AoKm',
+    'new_cookie_key' => 'def000009a826d5d9767721ce01c185af250d6aeeaf49f910ae75398bdd92b87a36487b34bb425fbe7e5aa09f2c625c09b93cffa7edb3feb3df7397c4191df55b507c2a5',
+  ),
+);

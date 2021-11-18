@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:16ea84fffc86b089b57844fc349242d960e660a22ab3a8646fbad4add6adcb4b
-size 362
+<?php return array (
+  0 => 9223372036854775807,
+  1 => 'a:2:{i:0;O:26:"Doctrine\\ORM\\Mapping\\Table":5:{s:4:"name";N;s:6:"schema";N;s:7:"indexes";N;s:17:"uniqueConstraints";N;s:7:"options";a:0:{}}i:1;O:27:"Doctrine\\ORM\\Mapping\\Entity":2:{s:15:"repositoryClass";s:59:"PrestaShopBundle\\Entity\\Repository\\AttributeGroupRepository";s:8:"readOnly";b:0;}}',
+);
