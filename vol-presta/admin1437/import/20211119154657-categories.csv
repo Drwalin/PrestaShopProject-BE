@@ -1,0 +1,10 @@
+ID;ParentID;Name
+3;;Studia
+4;3;Prawdopodobieństwo, Statystyka, Ekonometria
+5;3;Algebra
+6;3;Analiza
+7;3;Matematyka Dyskretna
+8;;Szkoła średnia
+9;8;Matura Podstawowa
+10;8;Matura Rozszerzona
+11;8;Kursy Tematyczne

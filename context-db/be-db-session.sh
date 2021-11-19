@@ -12,10 +12,6 @@ SQL_PID=0
 
 _term()
 {
-	kill "$SQL_PID"
-	mariadbd &
-	SQL_PID=$!
-	wait_for_db
 	be-db-export.sh
 	kill "$SQL_PID"
 	exit

@@ -87,6 +87,7 @@ for url in pageURLs:
 progCounter.end()
 
 categories = dict()
+categoriescsv = []
 
 progCounter = ProgressCounter(len(productURLs))
 print("Processing product pages... ", end='')
@@ -107,7 +108,12 @@ for url in productURLs:
     for i in range(1, len(catNodes)):
         catName = catNodes[i].text
         if catName not in categories:
-            categories[catName] = str(len(categories)+3)
+            catId = str(len(categories)+3)
+            categories[catName] = catId
+            catCSVDict = {"ID": catId, "Name": catName}
+            if i > 1:
+                catCSVDict["ParentID"] = str(categories[catNodes[i-1].text])
+            categoriescsv.append(catCSVDict)
 
         catstr += categories[catName]
         if i < len(catNodes)-1:
@@ -124,17 +130,15 @@ for url in productURLs:
     fetchResult.append(product)
 progCounter.end()
 
-with open("items.csv", "w") as fcsv:
+with open("output/items.csv", "w") as fcsv:
     fieldnames = fetchResult[0].keys()
     writer = csv.DictWriter(fcsv, delimiter=';', fieldnames=fieldnames)
 
     writer.writeheader()
     writer.writerows(fetchResult)
 
-categoriescsv = [{"ID": categories[key], "Name": key} for key in categories]
-
-with open("categories.csv", "w") as fcsv:
-    fieldnames = categoriescsv[0].keys()
+with open("output/categories.csv", "w") as fcsv:
+    fieldnames = ["ID", "ParentID", "Name"]
     writer = csv.DictWriter(fcsv, delimiter=';', fieldnames=fieldnames)
 
     writer.writeheader()
