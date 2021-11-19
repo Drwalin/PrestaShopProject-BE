@@ -1,26 +1,26 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-11-19 15:52:38
+/* Smarty version 3.1.39, created on 2021-11-19 18:24:21
   from 'module:psbannerpsbanner.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6197ba36c12bd0_82567123',
+  'unifunc' => 'content_6197ddc59574c1_73608448',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '64034093fbda864710a2c0f526b37f921e53ee39' => 
     array (
       0 => 'module:psbannerpsbanner.tpl',
-      1 => 1637305681,
+      1 => 1637334721,
       2 => 'module',
     ),
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6197ba36c12bd0_82567123 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6197ddc59574c1_73608448 (Smarty_Internal_Template $_smarty_tpl) {
 ?><a class="banner" href="https://etrapez.pl/" title="eTrapez">
-      <img src="http://localhost/modules/ps_banner/img/c6f8776e43203b0be1825e0f9dc3fcc1.png" alt="eTrapez" title="eTrapez" class="img-fluid" loading="lazy" width="1110" height="213">
+      <img src="http://localhost/modules/ps_banner/img/ca88a9011010fbc45f0290081a2e6889.png" alt="eTrapez" title="eTrapez" class="img-fluid" loading="lazy" width="1110" height="213">
   </a>
 <?php }
 }

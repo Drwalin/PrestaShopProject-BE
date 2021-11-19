@@ -1,24 +1,24 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-11-19 15:52:38
+/* Smarty version 3.1.39, created on 2021-11-19 18:33:04
   from 'module:psimagesliderviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6197ba36c02b07_22419246',
+  'unifunc' => 'content_6197dfd00f0d13_10209449',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6c2108a17c7103b6e203f4f0621d4645b56b0114' => 
     array (
       0 => 'module:psimagesliderviewstemplat',
-      1 => 1637305681,
+      1 => 1637334721,
       2 => 'module',
     ),
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6197ba36c02b07_22419246 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6197dfd00f0d13_10209449 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
   <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="5000" data-wrap="true" data-pause="hover" data-touch="true">
     <ol class="carousel-indicators">
@@ -28,37 +28,38 @@ function content_6197ba36c02b07_22419246 (Smarty_Internal_Template $_smarty_tpl)
           </ol>
     <ul class="carousel-inner" role="listbox" aria-label="Carousel container">
               <li class="carousel-item active" role="option" aria-hidden="false">
-          <a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-EN&amp;utm_content=download">
+          <a href="http://localhost/index.php?id_category=8&amp;controller=category">
             <figure>
-              <img src="http://localhost/modules/ps_imageslider/images/sample-1.jpg" alt="sample-1" loading="lazy" width="1110" height="340">
+              <img src="http://localhost/modules/ps_imageslider/images/2cf4094bef1a5c1ecfe78c3c449bc1e5cfdef9e8_banner2.png" alt="sample-2" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
-                  <h2 class="display-1 text-uppercase">Sample 1</h2>
-                  <div class="caption-description"><h3>EXCEPTEUR OCCAECAT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p></div>
+                  <h2 class="display-1 text-uppercase">SZKOŁA ŚREDNIA</h2>
+                  <div class="caption-description"><h3>Kursy dla młodszego brata</h3>
+<p>wy debile chodzicie do swietlicy a nie do szkoly</p></div>
                 </figcaption>
                           </figure>
           </a>
         </li>
               <li class="carousel-item " role="option" aria-hidden="true">
-          <a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-EN&amp;utm_content=download">
+          <a href="http://localhost/index.php?id_category=3&amp;controller=category">
             <figure>
-              <img src="http://localhost/modules/ps_imageslider/images/sample-2.jpg" alt="sample-2" loading="lazy" width="1110" height="340">
+              <img src="http://localhost/modules/ps_imageslider/images/f629d60b5b75c4ca60919d6a00c61816fe0b3699_banner0.png" alt="sample-1" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
-                  <h2 class="display-1 text-uppercase">Sample 2</h2>
-                  <div class="caption-description"><h3>EXCEPTEUR OCCAECAT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p></div>
+                  <h2 class="display-1 text-uppercase">KURSY NA STUDIA</h2>
+                  <div class="caption-description"><h3>student debil</h3>
+<p></p>
+<p>piwo piwo alkohol</p></div>
                 </figcaption>
                           </figure>
           </a>
         </li>
               <li class="carousel-item " role="option" aria-hidden="true">
-          <a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-EN&amp;utm_content=download">
+          <a href="http://localhost/index.php?id_category=9&amp;controller=category">
             <figure>
-              <img src="http://localhost/modules/ps_imageslider/images/sample-3.jpg" alt="sample-3" loading="lazy" width="1110" height="340">
+              <img src="http://localhost/modules/ps_imageslider/images/72062734af102bf60cac04c98a5c40b2b835f366_banner1.png" alt="sample-3" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
-                  <h2 class="display-1 text-uppercase">Sample 3</h2>
-                  <div class="caption-description"><h3>EXCEPTEUR OCCAECAT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p></div>
+                  <h2 class="display-1 text-uppercase">Matura podstawowa</h2>
+                  <div class="caption-description"><h3>Kursy najwyższej jakości</h3>
+<p>serio jakim debilem trza byc zeby nie zdac podstawy co sie z wami dzieje xDDDD</p></div>
                 </figcaption>
                           </figure>
           </a>
