@@ -1,0 +1,3 @@
+[submodule "presta-testa"]
+	path = presta-testa
+	url = https://github.com/jakubbedra/presta-testa.git
