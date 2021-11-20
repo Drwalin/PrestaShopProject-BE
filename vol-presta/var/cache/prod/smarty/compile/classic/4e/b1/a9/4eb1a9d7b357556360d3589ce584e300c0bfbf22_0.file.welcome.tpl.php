@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-11-20 16:24:04
+/* Smarty version 3.1.39, created on 2021-11-19 18:24:36
   from '/var/www/html/modules/welcome/views/contents/welcome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6199131424b6f2_87823705',
+  'unifunc' => 'content_6197ddd42c4e51_91472966',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4eb1a9d7b357556360d3589ce584e300c0bfbf22' => 
     array (
       0 => '/var/www/html/modules/welcome/views/contents/welcome.tpl',
-      1 => 1637346906,
+      1 => 1637334721,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6199131424b6f2_87823705 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6197ddd42c4e51_91472966 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="onboarding-welcome">
   <i class="material-icons onboarding-button-shut-down">close</i>
