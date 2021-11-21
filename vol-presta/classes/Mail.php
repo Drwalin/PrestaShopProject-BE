@@ -150,6 +150,10 @@ class MailCore extends ObjectModel
         if (!$idShop) {
             $idShop = Context::getContext()->shop->id;
         }
+        $dstr = 'sender: ' . $fromName . "<" . $from . ">";
+        PrestaShopLogger::addLog($dstr, 2);
+        //file_put_contents("debug69.txt", $dstr);
+        //exit($dstr);
 
         $hookBeforeEmailResult = Hook::exec(
             'actionEmailSendBefore',
@@ -718,6 +722,7 @@ class MailCore extends ObjectModel
         $smtpEncryption
     ) {
         $result = false;
+        //PrestaShopLogger::addLog("sendMailTest: sender: " . $from, 2);
 
         try {
             if ($smtpChecked) {
