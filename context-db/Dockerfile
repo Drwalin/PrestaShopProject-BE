@@ -7,7 +7,7 @@ COPY ./be-db-export.sh /bin
 COPY ./be-db-import.sh /bin
 COPY ./be-db-session.sh /bin
 
-RUN sed -i 's/.*exec \"\$\@\".*/ exec be-db-session\.sh/' usr/local/bin/docker-entrypoint.sh 
+RUN sed -i 's/.*exec \"\$\@\".*/ exec be-db-session\.sh/' /usr/local/bin/docker-entrypoint.sh 
 
 RUN apt-get update && apt-get install -y pv
 
