@@ -6,9 +6,12 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.util.Random;
 
@@ -26,8 +29,11 @@ public class PrestaTest {
 
     @Test
     public void shopTest() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+        //System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--allow-insecure-localhost");
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver(options);
         driver.get(HOST_ADDRESS);
 
         addProductsToCart(driver);
