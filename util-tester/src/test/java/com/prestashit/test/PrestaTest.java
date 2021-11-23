@@ -17,7 +17,7 @@ import java.util.Random;
 
 public class PrestaTest {
 
-    private static final String HOST_ADDRESS = "http://localhost:80";
+    private static final String HOST_ADDRESS = "https://localhost/";
 
     private final Random r;
 
@@ -93,11 +93,11 @@ public class PrestaTest {
         //filling the form
         driver.findElement(By.id("field-id_gender-1")).click();
         Thread.sleep(500);
-        driver.findElement(By.id("field-firstname")).sendKeys("Jan");
+        driver.findElement(By.id("field-firstname")).sendKeys("Janusz");
         Thread.sleep(500);
-        driver.findElement(By.id("field-lastname")).sendKeys("Paweł");
+        driver.findElement(By.id("field-lastname")).sendKeys("Pawlacz");
         Thread.sleep(500);
-        driver.findElement(By.id("field-email")).sendKeys("jp2" + r.nextInt() + "@example.com");
+        driver.findElement(By.id("field-email")).sendKeys("sample_email" + r.nextInt() + "@example.com");
         Thread.sleep(500);
         driver.findElement(By.id("field-password")).sendKeys("qwerty1234");
         Thread.sleep(500);
@@ -116,13 +116,13 @@ public class PrestaTest {
         Thread.sleep(200);
         driver.findElement(By.xpath("//div[@class=\"text-sm-center\"]/a")).click();
         //personal data
-        driver.findElement(By.id("field-address1")).sendKeys("sample address 21/3/7");
+        driver.findElement(By.id("field-address1")).sendKeys("sample address 1/23/4");
         driver.findElement(By.id("field-postcode")).sendKeys("69-420");
-        driver.findElement(By.id("field-city")).sendKeys("Fucking");
+        driver.findElement(By.id("field-city")).sendKeys("SampleText");
         driver.findElement(By.name("confirm-addresses")).click();
         //delivery
-        driver.findElement(By.id("delivery_option_2")).click();
-        driver.findElement(By.id("delivery_message")).sendKeys("prosze wyslac asap");
+        driver.findElement(By.id("delivery_option_5")).click();
+        driver.findElement(By.id("delivery_message")).sendKeys("nie ma tu easter eggów, spokojnie :)");
         driver.findElement(By.name("confirmDeliveryOption")).click();
         //payment
         driver.findElement(By.id("payment-option-2")).click();
@@ -134,6 +134,7 @@ public class PrestaTest {
     private void checkShipmentStatus(WebDriver driver) {
         driver.findElement(By.xpath("//div[@id=\"_desktop_user_info\"]/div/a[@class=\"account\"]")).click();
         driver.findElement(By.xpath("//a[@id=\"history-link\"]")).click();
+        driver.findElement(By.xpath("//a[@data-link-action=\"view-order-details\"]")).click();
     }
 
 }
