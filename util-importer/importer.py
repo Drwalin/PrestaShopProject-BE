@@ -127,6 +127,7 @@ def purge_products(pws):
 def purge_categories(pws):
 	ids = get_list_of_ids(pws, "categories", "category")
 	ids = [i for i in ids if int(i)>=3]
+	print(ids)
 	if len(ids):
 		pws.delete("categories", resource_ids=ids)
 
@@ -151,7 +152,7 @@ p_category_map = dict()
 s_products = read_json(SCRAPER_OUTPUT_PATH + "items.json")
 s_categories = read_json(SCRAPER_OUTPUT_PATH + "categories.json")
 
-print("Uploading categories...")
+print("Uploading categories... ", end='')
 progCounter = ProgressCounter(len(s_categories))
 for category in s_categories:
 	progCounter.print_progress()
@@ -167,7 +168,7 @@ progCounter.end()
 #exit()
 
 
-print("Uploading products...", end='')
+print("Uploading products... ")
 progCounter = ProgressCounter(len(s_products))
 for product in s_products:
 	progCounter.print_progress()
