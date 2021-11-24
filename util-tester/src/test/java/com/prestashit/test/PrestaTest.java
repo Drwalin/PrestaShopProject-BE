@@ -44,17 +44,17 @@ public class PrestaTest {
 
     private void addProductsToCart(WebDriver driver) throws InterruptedException {
         //selecting category
-        driver.findElement(By.id("category-3")).click();
+        driver.findElement(By.id("category-48")).click();
         Thread.sleep(200);
         //selecting subcategory
-        driver.findElement(By.xpath("//div[@id=\"subcategories\"]/ul/li[3]/div/a")).click();
+        driver.findElement(By.xpath("//div[@id=\"subcategories\"]/ul/li[1]/div/a")).click();
         Thread.sleep(200);
         //selecting items to cart from category 1
         for (int i = 0; i < 8; i++) {
             addProductToCart(i, driver);
         }
 
-        driver.findElement(By.id("category-8")).click();
+        driver.findElement(By.id("category-52")).click();
         Thread.sleep(200);
         driver.findElement(By.xpath("//div[@id=\"subcategories\"]/ul/li[2]/div/a")).click();
         Thread.sleep(200);
@@ -65,7 +65,7 @@ public class PrestaTest {
 
     private void addProductToCart(int ind, WebDriver driver) throws InterruptedException {
         String url = driver.getCurrentUrl();
-
+        System.out.println(ind);
         WebElement product = driver.findElement(By.xpath("//div[@id=\"js-product-list\"]/div[@class=\"products row\"]"))
                 .findElements(By.xpath("//div[@class=\"product\"]")).get(ind);
 
@@ -73,7 +73,7 @@ public class PrestaTest {
         Select select = new Select(driver.findElement(By.id("group_5")));
         select.selectByValue("27");
         driver.findElement(By.id("quantity_wanted")).sendKeys(Keys.chord(Keys.CONTROL, "a"), r.nextInt(MAX_PRODUCT_QUANTITY) + "");
-
+        Thread.sleep(500);
         driver.findElement(By.xpath("//div[@class=\"add\"]/button")).click();
         WebDriverWait wait = new WebDriverWait(driver, 5 * 1000);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("myModalLabel")));
