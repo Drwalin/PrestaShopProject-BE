@@ -1,0 +1,45 @@
+[
+    {
+        "id": "3",
+        "name": "Studia"
+    },
+    {
+        "id": "4",
+        "name": "Analiza",
+        "parent_id": "3"
+    },
+    {
+        "id": "5",
+        "name": "Algebra",
+        "parent_id": "3"
+    },
+    {
+        "id": "6",
+        "name": "Matematyka Dyskretna",
+        "parent_id": "3"
+    },
+    {
+        "id": "7",
+        "name": "Szko\u0142a \u015brednia"
+    },
+    {
+        "id": "8",
+        "name": "Matura Podstawowa",
+        "parent_id": "7"
+    },
+    {
+        "id": "9",
+        "name": "Matura Rozszerzona",
+        "parent_id": "7"
+    },
+    {
+        "id": "10",
+        "name": "Kursy Tematyczne",
+        "parent_id": "7"
+    },
+    {
+        "id": "11",
+        "name": "Prawdopodobie\u0144stwo, Statystyka, Ekonometria",
+        "parent_id": "3"
+    }
+]

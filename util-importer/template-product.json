@@ -1,0 +1,142 @@
+{
+    "product": {
+        "id_category_default": "3",
+        "id_default_image": {
+            "attrs": {
+                "notFilterable": "true"
+            },
+            "value": ""
+        },
+        "id_default_combination": {
+            "attrs": {
+                "notFilterable": "true"
+            },
+            "value": "15"
+        },
+        "id_shop_default": "1",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "",
+
+        "price": "69.000000",
+        
+        "active": "1",
+        "available_for_order": "1",
+        "available_date": "1986-04-26",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "state": "1",
+        "visibility": "both",
+        "advanced_stock_management": "0",
+        "redirect_type": "404",
+        "product_type": "combinations",
+        "pack_stock_type": "0",
+        "id_tax_rules_group": "1",
+
+        "name": {
+            "language": {
+                "attrs": {
+                    "id": "2"
+                },
+                "value": ""
+            }
+        },
+        "description": {
+            "language": {
+                "attrs": {
+                    "id": "2"
+                },
+                "value": ""
+            }
+        },
+        "description_short": {
+            "language": {
+                "attrs": {
+                    "id": "2"
+                },
+                "value": ""
+            }
+        },
+        "associations": {
+            "categories": {
+                "attrs": {
+                    "nodeType": "category",
+                    "api": "categories"
+                },
+                "category": [
+                    {
+                        "id": "2"
+                    }
+                ]
+            },
+            "images": {
+                "attrs": {
+                    "nodeType": "image",
+                    "api": "images"
+                },
+                "image": {
+                    "id": "25"
+                }
+            },
+            "combinations": {
+                "attrs": {
+                    "nodeType": "combination",
+                    "api": "combinations"
+                },
+                "combination": [
+                    {
+                        "id": "13"
+                    },
+                    {
+                        "id": "14"
+                    },
+                    {
+                        "id": "15"
+                    }
+                ]
+            },
+            "product_option_values": {
+                "attrs": {
+                    "nodeType": "product_option_value",
+                    "api": "product_option_values"
+                },
+                "product_option_value": [
+                    {
+                        "id": "28"
+                    },
+                    {
+                        "id": "27"
+                    },
+                    {
+                        "id": "26"
+                    }
+                ]
+            },
+            "stock_availables": {
+                "attrs": {
+                    "nodeType": "stock_available",
+                    "api": "stock_availables"
+                },
+                "stock_available": [
+                    {
+                        "id": "25",
+                        "id_product_attribute": "0"
+                    },
+                    {
+                        "id": "42",
+                        "id_product_attribute": "13"
+                    },
+                    {
+                        "id": "43",
+                        "id_product_attribute": "14"
+                    },
+                    {
+                        "id": "44",
+                        "id_product_attribute": "15"
+                    }
+                ]
+            }
+        }
+    }
+}
