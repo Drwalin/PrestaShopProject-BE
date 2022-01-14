@@ -1,0 +1,4 @@
+
+CREATE USER prestashop_be_180109 WITH PASSWORD 'jhd4ever';
+GRANT ALL PRIVILAGES ON BE_180109 TO prestashop_be_180109;
+

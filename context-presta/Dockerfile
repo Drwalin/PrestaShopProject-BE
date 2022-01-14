@@ -7,6 +7,8 @@ FROM prestashop/prestashop
 #ENV DB_PASSWORD=prestashit
 #ENV DB_NAME=BE_180109
 
+COPY vol-presta/* /var/www/html/
+
 COPY ssl/*.crt /etc/ssl/certs/
 COPY ssl/* /etc/ssl/private/
 
