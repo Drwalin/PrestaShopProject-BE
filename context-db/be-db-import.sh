@@ -1,4 +1,8 @@
 echo "Importing database from volume..."
 pv -f /var/dbdump/alldb.sql | mysql -u root "-p$MYSQL_ROOT_PASSWORD"
+echo "Granting privilages."
+echo "create user 'prestashop_be_180109'@'%' identified by 'prestashit'; " | mysql -u root "-p$MYSQL_ROOT_PASSWORD"
+echo "grant ALL on BE_180109.* to 'prestashop_be_180109'@'%'; " | mysql -u root "-p$MYSQL_ROOT_PASSWORD"
+echo "Privilages granted."
 echo "FLUSH PRIVILEGES; " | mysql -u root "-p$MYSQL_ROOT_PASSWORD"
 echo "Importing complete."
