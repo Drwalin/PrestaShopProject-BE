@@ -1,5 +1,5 @@
 
-REPO="127.0.0.1:5000"
+REPO="10.40.71.55:5000"
 IMAGE_NAME="hopbyteteamprestashopimage"
 
 # sudo openvpn --config /etc/openvpn/vpnWETI.ovpn
@@ -12,9 +12,13 @@ IMAGE_NAME="hopbyteteamprestashopimage"
 nothing:
 	echo "Nothing done."
 
+push:
+	echo "Pushing image."
+	docker push $(REPO)/$(IMAGE_NAME)
+	echo "Image pushed."
+
 image:
 	echo "Building image."
-	docker build . -t $(IMAGE_NAME)
-	docker push $(REPO)/$(IMAGE_NAME)
-	echo "Image built and sent."
+	docker build . -t $(REPO)/$(IMAGE_NAME)
+	echo "Image built."
 
