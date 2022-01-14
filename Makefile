@@ -1,7 +1,4 @@
 
-REPO="localhost:5000"
-IMAGE_NAME="HopbyteTeamPrestashopImage"
-
 # sudo openvpn --config /etc/openvpn/vpnWETI.ovpn
 # # postgresql:
 # ssh -L 5432:actina15.maas:5432 rsww@172.20.83.101
@@ -11,24 +8,6 @@ IMAGE_NAME="HopbyteTeamPrestashopImage"
 
 nothing:
 	echo "Nothing done."
-
-all: image database
-
-
-
-image:
-	echo "Building image."
-	docker build ./context-presta -t $(REPO)/$(IMAGE_NAME)
-	docker push $(REPO)/$(IMAGE_NAME)
-	echo "Image built and sent."
-
-database:
-	./context-db/init_all.sh
-	
-
-
-
-
 
 
 

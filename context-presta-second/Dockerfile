@@ -1,2 +1,2 @@
-FROM actina15.maas:5000/HopbyteTeamPrestashopImage
+FROM actina15.maas:5000/hopbyteteamprestashopimage
 
