@@ -1,11 +1,15 @@
 
+build:
+	docker-compose build
+	docker-compose up --force-recreate
+
 run:
 	sudo chmod -R 777 vol*
 	sudo rm -rf ./vol-presta/var/cache/*
 	docker-compose up
 	sudo chmod -R 777 vol*
 
-build:
+build-old:
 	sudo chmod -R 777 vol*
 	sudo rm -rf ./vol-presta/var/cache/*
 	docker container prune -f

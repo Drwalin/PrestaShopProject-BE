@@ -1,5 +1,16 @@
 FROM prestashop/prestashop
 
+RUN rm -rf /var/www/html/*
+RUN chmod -R 777 /var/www/html/
+RUN chown -R root:root /var/www/html
+COPY ./vol-presta/* /var/www/html/
+COPY ./vol-presta/.* /var/www/html/
+COPY ./vol-presta/app/* /var/www/html/app/
+COPY ./vol-presta/app/config/* /var/www/html/app/config/
+RUN chmod -R 777 /var/www/html/
+RUN chown -R root:root /var/www/html
+RUN find /var/www/html/ > /home/tmp.tmp
+
 COPY ssl/*.crt /etc/ssl/certs/
 COPY ssl/* /etc/ssl/private/
 
