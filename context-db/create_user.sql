@@ -1,0 +1,8 @@
+
+DROP USER IF EXISTS 'be_180109_db_user'@'%';
+DROP DATABASE IF EXISTS be_180109_db;
+
+CREATE USER 'be_180109_db_user'@'%' IDENTIFIED  BY 'be_180109_db_password';
+CREATE DATABASE be_180109_db;
+GRANT ALL ON be_180109_db.* TO 'be_180109_db_user'@'%';
+

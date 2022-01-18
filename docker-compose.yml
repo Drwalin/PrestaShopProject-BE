@@ -1,21 +1,8 @@
 
 services:
-  db:
+  be_180109_prestashop:
     build:
-      context: context-db
-    restart: always
-    volumes:
-      - ./vol-db-dump:/var/dbdump
-    environment:
-      MYSQL_ROOT_PASSWORD: changethisyoumoron
-
-  presta:
-    depends_on:
-      - "db"
-    build:
-      context: context-presta
+      context: context-presta-second
     ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./vol-presta:/var/www/html
+      - "2437:443"
+

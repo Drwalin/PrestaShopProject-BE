@@ -1,0 +1,6 @@
+*ERROR* 	v1.7.8.0	2021/11/23 - 14:04:48: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.0	2021/11/23 - 14:04:48: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.0	2021/11/23 - 14:04:58: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user &#039;prestashop&#039;@&#039;172.19.0.3&#039; (using password: YES) at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.0	2021/11/23 - 14:04:58: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user &#039;prestashop&#039;@&#039;172.19.0.3&#039; (using password: YES) at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.0	2021/11/23 - 14:05:10: Shop not found at line 422 in file classes/shop/Shop.php
+*ERROR* 	v1.7.8.0	2021/11/23 - 14:05:10: Shop not found at line 422 in file classes/shop/Shop.php
