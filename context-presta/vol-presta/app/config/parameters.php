@@ -1,7 +1,7 @@
 <?php return array (
   'parameters' => 
   array (
-    'database_host' => 'admin-mysql',
+    'database_host' => 'darch',
     'database_port' => '3306',
     'database_name' => 'be_180109_db',
     'database_user' => 'be_180109_db_user',

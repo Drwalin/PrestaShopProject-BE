@@ -1,6 +1,7 @@
 FROM prestashop/prestashop
 
 COPY ./vol-presta/ /var/www/html/
+RUN chmod -R 777 /var/www/html/
 COPY ssl/*.crt /etc/ssl/certs/
 COPY ssl/* /etc/ssl/private/
 

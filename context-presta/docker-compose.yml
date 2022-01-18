@@ -1,8 +1,9 @@
 version: "3.9"
-  
+
 services:
   be_180109_prestashop:
-    image: 10.40.71.55:5000/hopbyteteamprestashopimage
+    build:
+      context: .
     ports:
       - "2437:443"
 
