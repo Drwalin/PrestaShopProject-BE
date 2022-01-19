@@ -6,4 +6,10 @@ services:
       context: .
     ports:
       - "2437:443"
+    networks:
+      - admin-mongodb_default
 
+networks:
+  admin-mongodb_default:
+    external:
+      name: admin-mongodb_default

@@ -1,8 +1,16 @@
-version: "3.9"
-  
+version: '3.3'
+
 services:
   be_180109_prestashop:
     image: 10.40.71.55:5000/hopbyteteamprestashopimage
     ports:
       - "2437:443"
+      - "2448:80"
+    restart: always
+    networks:
+      - admin-mysql_default
 
+networks:
+  admin-mysql_default:
+    external:
+      name: admin-mysql_default
