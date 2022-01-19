@@ -46,7 +46,7 @@ public class PrestaTest {
             try {
                 ret = ctx.findElement(by);
                 break;
-            } catch(org.openqa.selenium.NoSuchElementException e) {
+            } catch(Exception e) {
                 if(i==MAX_RETRIES-1) {
                     throw e;
                 }
@@ -68,7 +68,7 @@ public class PrestaTest {
             try {
                 ctx.findElement(by).click();
                 break;
-            } catch(StaleElementReferenceException | NoSuchElementException e) {
+            } catch(Exception e) {
                 if(i==MAX_RETRIES-1) {
                     throw e;
                 }
